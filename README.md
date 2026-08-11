@@ -2,7 +2,27 @@
 
 ## 安装
 
-将 `skills/` 目录复制到你的项目根目录，或将单个技能符号链接到你项目的 `skills/` 文件夹中。
+1. 将 `skills/` 目录复制到指定目录
+
+2. 一键安装到`.agents`
+```bash
+# ===Windows===
+
+# 创建符号链接
+mklink /D /J "%USERPROFILE%\.agents\skills" ".\skills"
+# 复制
+xcopy /E /I /Y ".\skills" "%USERPROFILE%\.agents\skills"
+
+
+
+
+# ===Linux===
+
+# 创建符号链接
+ln -s skills ~/.agents/skills
+# 复制
+cp -r skills ~/.agents/skills
+```
 
 ## 技能列表
 
