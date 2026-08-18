@@ -28,7 +28,5 @@ cp -r skills ~/.agents/skills
 
 | 技能 | 说明 | 来源 |
 | --- | --- | --- |
-| read-first-before-implementation | 在提出方案或修改代码之前，先阅读并理解相关代码。 |
-| html-report | 不再输出 Markdown，而是生成一个单文件 HTML 报告，包含标签页、流程图和颜色高亮，可直接在浏览器中打开。 |
-| test-driven-bug-investigation | 修复 Bug 前先编写能稳定复现问题的最小测试，确认 Bug 真实存在后，再根据证据定位根因。 |
+| find-skills | vercel-labs find skills | [find-skills](https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md) |
 | grilling | grill the user | [mattpocock/skills](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) |
