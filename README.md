@@ -30,3 +30,4 @@ cp -r skills ~/.agents/skills
 | --- | --- | --- |
 | find-skills | vercel-labs find skills | [find-skills](https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md) |
 | grilling | grill the user | [mattpocock/skills](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) |
+| eli5 | explain like I'm 5 year old | [eli5](https://github.com/anthropics/claude-plugins-community/blob/main/eli5/skills/eli5/SKILL.md)|
